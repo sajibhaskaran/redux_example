@@ -1,7 +1,10 @@
+//libraries
 import React from 'react';
+// style file
 require ('../../scss/style.scss');
-
+// importing the components
 import UserList from '../containers/user_list';
+import UserDetail  from '../containers/user_detail';
 
 const App = () => (
       <div>
